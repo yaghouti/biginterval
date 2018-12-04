@@ -1,8 +1,8 @@
-# bigInterval
+# Big Interval
 Set intervals with delays greater than maximum delay of javascript's setInterval function.
 
 To install:
-> npm install bigInterval
+> npm install biginterval
 
 Usage:
 
