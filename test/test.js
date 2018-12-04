@@ -1,5 +1,6 @@
 let BigInterval = require('biginterval');
 let interval = 6000;
+
 let myBigInterval = new BigInterval(function (message) {
   console.log(message);
 }, interval, 'Hello world!');

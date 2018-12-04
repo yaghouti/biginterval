@@ -9,6 +9,8 @@ Usage:
 To set an interval:
 ```javascript
 let BigInterval = require('biginterval');
+let interval = 4294967295;
+
 let myBigInterval = new BigInterval(function (message) {
   console.log(message);
 }, interval, 'Hello world!');
@@ -16,6 +18,8 @@ let myBigInterval = new BigInterval(function (message) {
 or
 ```javascript
 let myBigInterval = new BigInterval();
+let interval = 4294967295;
+
 myBigInterval.set(function (message) {
   console.log(message);
 }, interval, 'Hello world!');
