@@ -1,6 +1,21 @@
 {
   "name": "biginterval",
-  "version": "0.0.2",
+  "version": "0.0.4",
+  "description": "Set intervals with delays greater than maximum delay of javascript's setInterval function",
+  "author": {
+    "name": "Majid Yaghouti",
+    "email": "m.yaghouti@yahoo.com"
+  },
   "main": "./index.js",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaghouti/biginterval"
+  },
+  "license": "MIT",
+  "keywords": [
+    "interval",
+    "setInterval",
+    "big delay"
+  ]
 }
