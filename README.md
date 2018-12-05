@@ -17,9 +17,10 @@ let myBigInterval = new BigInterval(function (message) {
 ```
 or
 ```javascript
-let myBigInterval = new BigInterval();
+let BigInterval = require('biginterval');
 let interval = 4294967295;
 
+let myBigInterval = new BigInterval();
 myBigInterval.set(function (message) {
   console.log(message);
 }, interval, 'Hello world!');
@@ -29,7 +30,7 @@ To clear an interval:
 myBigInterval.clear();
 ```
 
-#License
+# License
 MIT License
 
 Copyright (c) 2018 Majid Yaghouti
