@@ -1,25 +1,24 @@
 # Big Interval
-Set intervals with delays greater than maximum delay of javascript's setInterval function.
+Set intervals with delays greater than maximum delay of javascript's `setInterval` function.
 
-To install:
+**To install:**
 > npm install biginterval
 
-Usage:
+**Usage:**
 
 To set an interval:
 ```javascript
 let BigInterval = require('biginterval');
 let interval = 4294967295;
-
+```
+Then:
+```javascript
 let myBigInterval = new BigInterval(function (message) {
   console.log(message);
 }, interval, 'Hello world!');
 ```
 or
 ```javascript
-let BigInterval = require('biginterval');
-let interval = 4294967295;
-
 let myBigInterval = new BigInterval();
 myBigInterval.set(function (message) {
   console.log(message);
@@ -29,6 +28,8 @@ To clear an interval:
 ```javascript
 myBigInterval.clear();
 ```
+# Notice
+This code uses async/await feature of node, so must be run by node 7.6.0 or above.
 
 # License
 MIT License

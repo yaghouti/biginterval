@@ -1,12 +1,15 @@
 {
   "name": "biginterval",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Set intervals with delays greater than maximum delay of javascript's setInterval function",
   "author": {
     "name": "Majid Yaghouti",
     "email": "m.yaghouti@yahoo.com"
   },
   "main": "./index.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
   "dependencies": {},
   "repository": {
     "type": "git",
@@ -16,6 +19,10 @@
   "keywords": [
     "interval",
     "setInterval",
-    "big delay"
+    "big delay",
+    "delay",
+    "cron",
+    "runner",
+    "scheduler"
   ]
 }
